@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" style="width: 6px;" type="image/x-icon">
+  <title>Jual Baju Erigo Ciro-ciro - XL</title>
+
+</head>
+<body>
+  <style>
+    /* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.containertop {
+  width: 100%;
+  height: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+.containertop li{
+  display: inline-block; /* Membuat elemen list berjejer horizontal */
+  margin-right: 10px; /* Memberi jarak antar elemen */
+  text-decoration: none;
+  
+}
+.containertop li a span{
+  text-decoration: none;
+text-align: start;
+  color: #767676;
+  font-size: 14px;
+
+}
+.containertop li a{
+  text-decoration: none;
+  text-align: right;
+  color: #767676;
+  font-size: 14px;
+  margin-right: 30px;
+}
+.container {
+  width: 80%;
+  align-items: center;
+justify-content: center;
+}
+.containerr {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.box {
+height: 1900px;
+ width: 500px;
+ margin-left: 30px;
+  margin: 10px; /* Atur jarak antara container */
+  background-color: #ffffff; /* Warna latar belakang container */
+}
+.boxone {
+
+  margin: 10px; /* Atur jarak antara container */
+ 
+  background-color: #ffffff; /* Warna latar belakang container */
+}
+.boxone img {
+margin-left: 190px;
+}
+.boxtri { 
+  height: 90%;
+  width: 300px;
+  background-color: #ffffff; /* Warna latar belakang container */
+}
+.boxtri img{
+  margin-left: 60px;
+}
+header {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  flex: 1;
+  font-size: 24px;
+}
+
+.search-bar {
+  flex: 3;
+  width: 400px;
+  border: 0.5px solid #a8a8a8;
+  border-radius: 5px;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px;
+  width: 70%;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.user-actions a {
+  color: #000000;
+  margin-left: 15px;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+
+nav {
+  background-color: rgb(255, 255, 255);
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #7f7f7f;
+  text-decoration: none;
+  font-size: 13px;
+  margin-left: 50px;
+}
+.promo-banner{
+ background-color: #ffffff;
+
+ height: 2700px;
+}
+.promo-banner img {
+  width: 300px;
+  margin-top: 5px;
+  float: left;
+    margin-right: 20px; /* Atur jarak antara gambar dan teks */
+}
+.deskripsi{
+
+  margin-top: 20px;
+}
+
+.products {
+  margin-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px 0;
+  border-top: 2px solid #7f7f7f;
+}
+
+footer .footer-menu ul {
+  display: flex;
+}
+
+footer .footer-menu ul li {
+  margin-right: 20px;
+}
+
+footer .footer-menu ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.social-icons a {
+  margin-left: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+.tombol{
+border: 1px solid #00b140;
+width: 90px;
+height: 35px;
+padding: 10px;
+background-color: #ffffff;
+border-radius: 10px;
+}
+.follow{
+border: 1px solid #00b140;
+width: 90px;
+height: 35px;
+padding: 10px;
+background-color: #ffffff;
+border-radius: 10px;
+margin-left: 235px;
+cursor: pointer;
+}
+.tombolijo{
+  border: 1px solid #00b140;
+  width: 90px;
+  height: 35px;
+  padding: 10px;
+  color: #fff;
+  background-color: #00b140;
+  border-radius: 10px;
+}
+.listkonten ul{
+  margin-left: 130px;
+}
+.listkonten {
+  margin-top: 7px;
+}
+.listkonten li{
+  display: inline-block; /* Membuat elemen list berjejer horizontal */
+
+  text-decoration: none;
+}
+
+.listkonten li a span{
+  text-decoration: none;
+text-align: start;
+  color: #767676;
+  font-size: 13px;
+
+}
+.listkonten li a{
+  text-decoration: none;
+  text-align: right;
+  color: #767676;
+  font-size: 13px;
+  margin-right: 30px;
+}
+.details{
+  display: flex;
+  white-space: 20px;
+  flex-direction: row;
+}
+.ulasandeskrip{
+
+  overflow: hidden;
+}
+.ulasandeskrip .pics{
+  display: grid;
+  margin-right: 20px;
+  overflow: hidden;
+}
+.images-container {
+  display: flex;
+}
+.image {
+  width: 75px; /* Atur lebar gambar */
+
+  background-color: #ffffff; /* Warna latar belakang gambar */
+  margin-right: 10px; /* Atur jarak antara gambar */
+}
+.teksonpics {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 22px; /* Ukuran teks */
+  text-align: center;
+}
+
+
+  </style>
+  <div class="containertop">
+    <ul>
+      <li><a href="#"><span>Download Tokopedia App</span></a></li>
+      <li><a href="#">Tentang Tokopedia</a></li>
+      <li><a href="#">Mitra Tokopedia</a></li>
+      <li><a href="#">Mulai Berjualan</a></li>
+      <li><a href="#">Promo</a></li>
+      <li><a href="#">Tokopedia Care</a></li>
+      <!-- Add more categories as needed -->
+    </ul>
+  </div>
+  <header>
+    <div class="container">
+      <div class="logo"><img alt="tokopedia-logo" style="width: 155px; margin-left:20px;" src="https://ecs7.tokopedia.net/assets-tokopedia-lite/v2/zeus/production/e5b8438b.svg"></div>
+
+      <div class="search-bar">
+        <input type="text" placeholder="Cari di Tokopedia">
+        
+      </div>
+      <div class="user-actions">
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" style="width: 20px; margin-right:10px"  viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart">
+          <circle cx="9" cy="21" r="1"></circle>
+          <circle cx="20" cy="21" r="1"></circle>
+          <path d="M1 1h4l2.68 10.73a2 2 0 0 0 1.94 1.42h10.76a2 2 0 0 0 1.94-1.42L23 6H6" style="fill:none"></path>
+        </svg>|</a>
+        <button class="tombol"><a href="#"><b style=" color: #00b140;">Masuk</b></a></button>
+        <button class="tombolijo" ><a href="#"><b style="color: #fff; margin-right:15px;">Daftar</b></a></button>
+        
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div style="color: #000000; margin-left:40px; margin-right:330px; font-size:13px; float:right;"><svg class="unf-icon" viewBox="0 0 24 24" width="16" height="16" fill="var(--color-icon-enabled, #2E3137)" style="display: inline-block; vertical-align: middle;"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.02 2.809A7.67 7.67 0 0112 2.24 7.67 7.67 0 0119.75 10c0 7.264-6.896 11.372-7.365 11.65a.81.81 0 01-.755.01l-.015-.01C11.146 21.373 4.25 17.265 4.25 10a7.67 7.67 0 014.77-7.191zM5.75 10c0 5.58 4.85 9.18 6.25 10.11 1.4-.93 6.25-4.55 6.25-10.11A6.188 6.188 0 0012 3.74 6.19 6.19 0 005.75 10zm4.168-3.129A3.75 3.75 0 0112 6.24 3.76 3.76 0 0115.75 10a3.75 3.75 0 11-5.832-3.129zm.83 4.99a2.25 2.25 0 102.503-3.74 2.25 2.25 0 00-2.502 3.74z"></path></svg><span style="color: #7f7f7f; ">Dikirim ke</span> <b>Jakarta Pusat</b></div>
+    <div class="container">
+      <ul>
+        <li><a href="#">Poco f4</a></li>
+        <li><a href="#">Batik Pria</a></li>
+        <li><a href="#">Helm Full Face</a></li>
+        <li><a href="#">Kacamata Hitam</a></li>
+        <!-- Add more categories as needed -->
+      </ul>
+    </div>
+  </nav>
+  <hr style="margin-top: 10px;">
+  <div class="listkonten">
+    <ul>
+      <li><a href="#" style="color: #00b140;">Home </a></li>
+      <li><a href="#" style="color: #7f7f7f;">></a></li>
+      <li><a href="#" style="color: #00b140;">Fashion Pria </a></li>
+      <li><a href="#" style="color: #7f7f7f;">></a></li>
+      <li><a href="#" style="color: #00b140;">Atasan Pria </a></li>
+      <li><a href="#" style="color: #7f7f7f;">></a></li>
+      <li><a href="#" style="color: #00b140;">Kemeja Pria </a></li>
+      <li><a href="#" style="color: #7f7f7f;">></a></li>
+      <li><a href="#">Jual Baju Erigo Ciro-ciro - XL</a></li>
+      <!-- Add more categories as needed -->
+    </ul>
+  </div>
+
+  <section class="promo-banner">
+    <div class="containerr">
+      
+
+      
+        <div class="boxone">
+          <img src="ciro/shani.jpg" style="width: 330px;">
+          <img src="ulasan pembeli.jpg" style="margin-top: 40px; width:240px;">
+          <img src="filterulasan.jpg" style="width:240px;">
+          <img src="topikulasan.jpg" style="width:240px;">
+        </div>
+        <div class="box">
+          
+          <div class="deskripsi">
+            <h2> Jual Baju Erigo Ciro-ciro - XL</h2>
+            <p style="margin-top: 10px;">Terjual <span style="color: #7f7f7f;">2 rb+</span>
+      
+              •
+              <svg class="unf-icon" viewBox="0 0 24 24" width="16" height="16" fill="var(--YN300, #FFC400)" style="display: inline-block; margin-right: 5px; vertical-align: middle;"><path d="M21.57 9.14a2.37 2.37 0 00-1.93-1.63L15.9 7l-1.68-3.4a2.38 2.38 0 00-4.27 0L8.27 7l-3.75.54a2.39 2.39 0 00-1.32 4.04l2.71 2.64L5.27 18a2.38 2.38 0 002.35 2.79 2.42 2.42 0 001.11-.27l3.35-1.76 3.35 1.76a2.41 2.41 0 002.57-.23 2.369 2.369 0 00.89-2.29l-.64-3.73L21 11.58a2.38 2.38 0 00.57-2.44z"></path></svg>100 <span style="color: #7f7f7f;">(1.072 rating)</span>
+              
+              •
+              Diskusi <span style="color: #7f7f7f;">(8)</span></p>
+      
+              <h1 style="font-size: 30px; margin-top: 20px">Rp92.000</h1>
+              <p style="font-size: 15px; margin-top:6px" ><span style="color: #ff0000; border: 1px solid #fedada; background-color:#fedada;">74%</span> <span style="color: #767676; text-decoration: line-through;"> Rp350.000</span></p>
+              
+              <hr style="width: 500px; margin-top:30px; color:#7f7f7f;">
+      
+              <h2 style="font-size: 18px; margin-top: 14px;">Pilih ukuran: <span style="color: #767676;">XL</span></h2>
+              
+              <img src="size.jpg" style="width: 220px; margin-bottom: 20px;" alt="size">
+              <hr style="width: 500px; margin-top:40px; color:#7f7f7f;">
+    
+    <div class="details">
+      <h1 style="margin-top: 10px; margin-left: 6px; font-size:16px; color:#00b140">Detail</h1>
+      <h1 style="margin-top: 10px; margin-left: 6px; font-size:16px; color: #7f7f7f">Spesifikasi</h1>
+      <h1 style="margin-top: 10px; margin-left: 6px; font-size:16px; color:#7f7f7f">Info Penting</h1>
+    </div>
+    
+              <p><span style="color: #00b140; "><b>______</b></span><span style="color: #a8a8a8;">__________________________________________________</span></p>
+            <div class="detail-deskripsi">
+        <p style="margin-top: 6px;"><span style="color: #7f7f7f;">Kondisi:</span> Baru</p>
+          <p><span style="color: #7f7f7f; ">Min. Pemesanan:</span> 1 Buah</p>
+          <p style="color: #00b140;"><span style="color: #7f7f7f; ">Etalase:</span> <b>CIRO-CIRONYA KEBANGETAN Yuk Waktunya Belanja</b></p>
+          <div>
+            <p style="color: #00b140; font-size:14px; margin-top: 4px;"><b>Lihat Selengkapnya</b></p>
+          </div>
+            </div>
+        </div>
+          <hr style="width: 500px; margin-top:30px; margin-bottom: 10px; color:#7f7f7f;">
+          <div class="erigo-akun">
+            <img src="erigoakun.jpg" style="width: 50px; border-radius: 50%;" alt="erigo">
+            <img src="badge.png" style="width: 20px;" alt="">
+            <p><b style="margin-top: 20px;">Erigo Official</b></p>
+            <div>
+              <p style="color:#00b140;"><b>• Online</b> <span><button class="follow"><b style="color: #00b140;">Follow</b></button></span></p>
+            </div>
+            <div>
+              <p style="font-size: 13px;"> <svg class="unf-icon" viewBox="0 0 24 24" width="16" height="16" fill="var(--NN600, #6D7588)" style="display: inline-block; margin-right: 6px; vertical-align: middle;"><path d="M7.62 20.74A2.381 2.381 0 015.27 18l.64-3.73-2.71-2.69a2.39 2.39 0 011.32-4.07L8.27 7 10 3.57a2.38 2.38 0 014.27 0L15.9 7l3.74.54A2.39 2.39 0 0121 11.58l-2.72 2.64.61 3.78a2.37 2.37 0 01-.89 2.29 2.41 2.41 0 01-2.52.18l-3.35-1.76-3.4 1.76a2.42 2.42 0 01-1.11.27zm4.46-17a.87.87 0 00-.79.5l-2 4.1L4.74 9a.89.89 0 00-.49 1.51l3.27 3.19-.77 4.51a.87.87 0 00.35.86.89.89 0 00.94.07l4-2.13 4 2.13a.89.89 0 001.29-.93l-.78-4.51 3.28-3.19a.89.89 0 00-.4-1.51l-4.53-.66-2-4.1a.88.88 0 00-.82-.5z"></path></svg><b>100</b> <span style="color: #7f7f7f;">rata-rata ulasan</span> | <svg class="unf-icon" viewBox="0 0 24 24" width="16" height="16" fill="var(--NN600, #6D7588)" style="display: inline-block; margin-right: 6px; vertical-align: middle;"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.584 3.882A9.75 9.75 0 0112 2.24 9.76 9.76 0 0121.75 12 9.75 9.75 0 116.584 3.882zm.832 14.967A8.25 8.25 0 0012 20.24 8.26 8.26 0 0020.25 12a8.25 8.25 0 10-12.834 6.849zm5.334-7.599H16a.75.75 0 110 1.5h-4a.76.76 0 01-.75-.75V7a.75.75 0 111.5 0v4.25z"></path></svg>  ± 8 menit <span style="color: #7f7f7f;">pesanan diproses</span></p>
+              <hr style="margin-top: 10px;">
+            </div>
+            <div>
+              <p style="margin-top: 10px;"><b>Pengiriman</b></p>
+              <p style="margin-top: 10px;"><svg class="unf-icon" viewBox="0 0 24 24" width="18" height="18" fill="var(--color-icon-enabled, #2E3137)" style="display: inline-block; vertical-align: middle;"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.02 2.809A7.67 7.67 0 0112 2.24 7.67 7.67 0 0119.75 10c0 7.264-6.896 11.372-7.365 11.65a.81.81 0 01-.755.01l-.015-.01C11.146 21.373 4.25 17.265 4.25 10a7.67 7.67 0 014.77-7.191zM5.75 10c0 5.58 4.85 9.18 6.25 10.11 1.4-.93 6.25-4.55 6.25-10.11A6.188 6.188 0 0012 3.74 6.19 6.19 0 005.75 10zm4.168-3.129A3.75 3.75 0 0112 6.24 3.76 3.76 0 0115.75 10a3.75 3.75 0 11-5.832-3.129zm.83 4.99a2.25 2.25 0 102.503-3.74 2.25 2.25 0 00-2.502 3.74z"></path></svg> Dikirim dari <b>Kec. Ciwidey</b></p>
+              <p style="margin-top: 10px;"><svg class="unf-icon" viewBox="0 0 24 24" width="20" height="20" fill="var(--color-icon-enabled, #2E3137)" style="display: inline-block; vertical-align: middle;"><path d="M21.07 10.94l-2.41-2.75a2.73 2.73 0 00-2.07-.94h-2.84V7A2.75 2.75 0 0011 4.25H4A1.76 1.76 0 002.25 6v10A2.75 2.75 0 005 18.75h.53a1.9 1.9 0 000 .25 2 2 0 004 0 1.9 1.9 0 000-.25h5.06a1.896 1.896 0 000 .25 2 2 0 004 0 1.896 1.896 0 000-.25H20A1.76 1.76 0 0021.75 17v-4.25a2.75 2.75 0 00-.68-1.81zM3.75 16V6A.25.25 0 014 5.75h7A1.25 1.25 0 0112.25 7v10.25H5A1.25 1.25 0 013.75 16zm16.5 1a.25.25 0 01-.25.25h-6.25v-8.5h2.84a1.24 1.24 0 01.94.43l.94 1.07H17a.76.76 0 00-.75.75v1a.76.76 0 00.75.75h3.25V17z"></path></svg> Ongkir Reguler 10 rb</p>
+              <p style="margin-top: 10px; color:#7f7f7f; margin-left: 25px;">Estimasi tiba 1 - 4 Mar</p>
+              <hr style="margin-top: 10px;">
+            </div>
+            <div>
+              <p style="margin-top:10px;"><b>Beli di aplikasi, makin banyak promo!</b></p>
+              <img src="scanqr.jpg" style="width: 500px;">
+            </div>
+          </div>
+          <div>
+            <p style="margin-top: 10px;"><b>FOTO & VIDEO PEMBELI</b></p>
+          </div>
+          <div class="images-container">
+            <div class="image"><img src="ciro/adelciro1.jpg" style="width: 75px; border-radius:20%;"></div>
+            <div class="image"><img src="ciro/atinciro1.jpg" style="width: 75px; border-radius:20%;"></div>
+            <div class="image"><img src="ciro/christyciro1.jpg" style="width: 75px; border-radius:20%;"></div>
+            <div class="image"><img src="ciro/freyaciro1.jpg" style="width: 75px; border-radius:20%;"></div>
+            <div class="image"><img src="ciro/graciaciro1.jpg" style="width: 75px; border-radius:20%;"></div>
+<div class="teksonpics">
+  <div class="image"><img src="ciro/jessiciro1.jpg" style="width: 75px; border-radius:20%;"></div>
+  <div class="overlay">+103</div>
+</div>
+</div>
+<div>
+  <p style="margin-top: 10px;"><b>ULASAN PILIHAN</b></p>
+  <p style="margin-top: 20px; margin-bottom:20px;">menampilkan 4 dari beberapa ulasan</p>
+  <p><svg class="unf-icon" viewBox="0 0 24 24" width="18" height="18" fill="var(--YN300, #FFC400)" aria-hidden="true" style="display: inline-block; margin-right: 2px; vertical-align: middle;"><path d="M21.57 9.14a2.37 2.37 0 00-1.93-1.63L15.9 7l-1.68-3.4a2.38 2.38 0 00-4.27 0L8.27 7l-3.75.54a2.39 2.39 0 00-1.32 4.04l2.71 2.64L5.27 18a2.38 2.38 0 002.35 2.79 2.42 2.42 0 001.11-.27l3.35-1.76 3.35 1.76a2.41 2.41 0 002.57-.23 2.369 2.369 0 00.89-2.29l-.64-3.73L21 11.58a2.38 2.38 0 00.57-2.44z"></path></svg> <svg class="unf-icon" viewBox="0 0 24 24" width="18" height="18" fill="var(--YN300, #FFC400)" aria-hidden="true" style="display: inline-block; margin-right: 2px; vertical-align: middle;"><path d="M21.57 9.14a2.37 2.37 0 00-1.93-1.63L15.9 7l-1.68-3.4a2.38 2.38 0 00-4.27 0L8.27 7l-3.75.54a2.39 2.39 0 00-1.32 4.04l2.71 2.64L5.27 18a2.38 2.38 0 002.35 2.79 2.42 2.42 0 001.11-.27l3.35-1.76 3.35 1.76a2.41 2.41 0 002.57-.23 2.369 2.369 0 00.89-2.29l-.64-3.73L21 11.58a2.38 2.38 0 00.57-2.44z"></path></svg> <svg class="unf-icon" viewBox="0 0 24 24" width="18" height="18" fill="var(--YN300, #FFC400)" aria-hidden="true" style="display: inline-block; margin-right: 2px; vertical-align: middle;"><path d="M21.57 9.14a2.37 2.37 0 00-1.93-1.63L15.9 7l-1.68-3.4a2.38 2.38 0 00-4.27 0L8.27 7l-3.75.54a2.39 2.39 0 00-1.32 4.04l2.71 2.64L5.27 18a2.38 2.38 0 002.35 2.79 2.42 2.42 0 001.11-.27l3.35-1.76 3.35 1.76a2.41 2.41 0 002.57-.23 2.369 2.369 0 00.89-2.29l-.64-3.73L21 11.58a2.38 2.38 0 00.57-2.44z"></path></svg> <svg class="unf-icon" viewBox="0 0 24 24" width="18" height="18" fill="var(--YN300, #FFC400)" aria-hidden="true" style="display: inline-block; margin-right: 2px; vertical-align: middle;"><path d="M21.57 9.14a2.37 2.37 0 00-1.93-1.63L15.9 7l-1.68-3.4a2.38 2.38 0 00-4.27 0L8.27 7l-3.75.54a2.39 2.39 0 00-1.32 4.04l2.71 2.64L5.27 18a2.38 2.38 0 002.35 2.79 2.42 2.42 0 001.11-.27l3.35-1.76 3.35 1.76a2.41 2.41 0 002.57-.23 2.369 2.369 0 00.89-2.29l-.64-3.73L21 11.58a2.38 2.38 0 00.57-2.44z"></path></svg> <svg class="unf-icon" viewBox="0 0 24 24" width="18" height="18" fill="var(--YN300, #FFC400)" aria-hidden="true" style="display: inline-block; margin-right: 2px; vertical-align: middle;"><path d="M21.57 9.14a2.37 2.37 0 00-1.93-1.63L15.9 7l-1.68-3.4a2.38 2.38 0 00-4.27 0L8.27 7l-3.75.54a2.39 2.39 0 00-1.32 4.04l2.71 2.64L5.27 18a2.38 2.38 0 002.35 2.79 2.42 2.42 0 001.11-.27l3.35-1.76 3.35 1.76a2.41 2.41 0 002.57-.23 2.369 2.369 0 00.89-2.29l-.64-3.73L21 11.58a2.38 2.38 0 00.57-2.44z"></path></svg> <span style="color: #7f7f7f;">1 hari lalu</span></p>
+  <p><b>Reva Fidela</b></p>
+  <p style="color: #7f7f7f;">Varian L</p>
+  <p>barang sesuai, kurirnya jg ramah, kalo udah pake baju ini harus profesional pastinya</p>
+  <img src="ciro/adelciro.jpg" style="width: 190px;">
+  <div>
+    <img src="atinakun.jpg" >
+    <img src="ciro/atinciro.jpg" style="width: 190px;">
+  </div>
+  <div>
+    <img src="christyakun.jpg" >
+    <img src="ciro/christyciro.jpg" style="width: 200px;">
+  </div>
+  <div>
+    <img src="freyaakun.jpg" style="width: 500px;">
+    <img src="ciro/freyaciro.jpg" style="width: 200px;">
+  </div>
+  <div>
+   <img src="semuaulasan.jpg" style="margin-top: 25px; width: 500px;">
+  </div>
+</div>
+</div>
+        
+
+    <div class="boxtri" ><img src="stok.jpg"></div>
+        </div>
+      </div>
+<!-- <div class="ulasandeskrip">
+  <div class="pics">
+    <img src="ulasan pembeli.jpg" style="width: 200px; margin-left: 129px" alt="">
+    <img src="filterulasan.jpg" style="width: 200px; margin-left: 129px" alt="">
+    <img src="topikulasan.jpg" style="width: 200px; margin-left: 129px" alt="">
+  </div>
+
+<div style="clear:both;"></div>
+</div> -->
+    </section>
+    
+  <section class="products">
+    <div class="container">
+     
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-menu">
+        <ul>
+          <li><a href="#">Tokopedia</a></li>
+          <li><a href="#">Hubungi Kami</a></li>
+          <li><a href="#">Syarat & Ketentuan</a></li>
+
+        </ul>
+      </div>
+      <div class="social-icons">
+        <a href="#"><img src="fb.png" style="width: 40px;" alt="Facebook"></a>
+        <a href="#"><img src="x.jpg" alt="Twitter"></a>
+        <a href="#"><img src="ig.webp" alt="Instagram"></a>
+      </div>
+      <div>
+        <img src="footer.jpg" style="float: right;" alt="">
+      </div>
+    </div>
+  </footer>
+</body>
+  </html>
